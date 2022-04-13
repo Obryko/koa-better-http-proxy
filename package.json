@@ -12,7 +12,7 @@
     "test:debug": "mocha debug -R spec test --recursive",
     "mocha": "mocha -R spec test --recursive",
     "lint": "jshint index.js test/*.js test/**/*js lib/*js app/**/*js ",
-    "jscs": "jscs index.js test/*.js test/**/*js lib/*js app/**/*js"
+    "jscs": "eslint index.js test/*.js test/**/*js lib/*js app/**/*js"
   },
   "repository": {
     "type": "git",
@@ -31,20 +31,21 @@
     "url": "https://github.com/nsimmons/koa-better-http-proxy/issues"
   },
   "devDependencies": {
-    "body-parser": "^1.17.1",
-    "chai": "^3.5.0",
-    "cookie-parser": "^1.4.3",
-    "express": "^4.15.2",
-    "jscs": "^3.0.7",
-    "jshint": "^2.9.4",
-    "koa": "^2.2.0",
-    "mocha": "^2.1.0",
-    "supertest": "^1.2.0"
+    "body-parser": "^1.20.0",
+    "chai": "^4.3.6",
+    "cookie-parser": "^1.4.6",
+    "eslint": "^8.13.0",
+    "eslint-plugin-import": "^2.26.0",
+    "express": "^4.17.3",
+    "jshint": "^2.13.4",
+    "koa": "^2.13.4",
+    "mocha": "^9.2.2",
+    "supertest": "^6.2.2"
   },
   "dependencies": {
-    "es6-promise": "^3.3.1",
-    "raw-body": "^2.2.0",
-    "winston": "^2.3.1"
+    "es6-promise": "^4.2.8",
+    "raw-body": "^2.5.1",
+    "winston": "^3.7.2"
   },
   "contributors": []
 }

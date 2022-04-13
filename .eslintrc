@@ -1,0 +1,20 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es2021": true
+  },
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "rules": {
+    "max-len": [
+      2,
+      120
+    ],
+    "quote-props": 0,
+    "spaced-comment": 0,
+    "indent": 0,
+    "no-else-return": 0
+  }
+}
